@@ -60,8 +60,8 @@ class LinkedList {
     
           return null;   
     }
-
-    peek(){
+    // return the top of stack
+    peak(){
         var current = this.head;
         if(current){
             let element = current.element;
@@ -131,7 +131,7 @@ console.log("is element removed ? " + ll.pop());
 ll.printList();
 
 // returns 3
-console.log("return top of stack ? " + ll.peek());
+console.log("return top of stack ? " + ll.peak());
 
 
 

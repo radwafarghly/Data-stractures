@@ -24,8 +24,8 @@ class Stack {
             return "Underflow";
         return this.items.pop();
     }
-	// peek()
-    peek()
+	// peak()
+    peak()
     {
         // return the top most element from the stack
         // but does'nt delete it.
@@ -69,7 +69,7 @@ stack.push(40);
 console.log(stack.printStack());
 
 // returns 40
-console.log(stack.peek());
+console.log(stack.peak());
 
 // returns 40 and remove it from stack
 console.log(stack.pop());
